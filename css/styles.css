@@ -30,14 +30,23 @@
   box-sizing: border-box;
 }
 
+
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: 'PT Sans', sans-serif;
   font-size: var(--main-font-size);
   line-height: var(--main-line-height);
   color: var(--main-font-color);
   font-weight: var(--main-font-weight);
+  background-color: #F2F2F2;
 }
 
 img {
@@ -59,6 +68,45 @@ img {
 }
 
 
+.page-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--second-font-color);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.navigation {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-link {
+  width: 139px;
+}
+
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 891px;
+}
+
+.navigation-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 345px;
+  list-style: none;
+}
+
+.additional-menu {
+  width: 264px;
+
+}
+
 .subscribe-primary {
   color: #ffffff;
   background-color: #83B3D3;
@@ -74,12 +122,6 @@ img {
   color: var(--main-font-color);
 }
 
-.additional-icon {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  color: var(--second-font-color);
-}
 
 
 .section-title {
@@ -90,6 +132,10 @@ img {
 }
 
 
+.search {
+  padding-left: 70px;
+  padding-right: 70px;
+}
 
 .advantages-description {
   font-size: 18px;
@@ -156,6 +202,8 @@ img {
 /* catalog */
 
 .main-heading-wrap {
+  padding-right: 70px;
+  padding-left: 70px;
   background-image: url('../img/background/catalog-background.jpg');
   background-size: cover;
   background-color: #83B3D3;
@@ -273,4 +321,38 @@ img {
   font-weight: 400;
   font-size: 18px;
   background-color: transparent;
+}
+
+.breadcrumbs {
+  display: flex;
+}
+
+.filter-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-catalog-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.view {
+  display: flex;
+}
+
+.hotels-catalog {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.subscribe {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.page-footer {
+  padding-left: 70px;
+  padding-right: 70px;
 }
