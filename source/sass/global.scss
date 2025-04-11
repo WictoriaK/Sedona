@@ -1,0 +1,27 @@
+
+@use 'blocks/main';
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: main.$main-line-height;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.caption {
+  font-size: main.$main-font-size;
+  font-weight: bold;
+  color: main.$black-color;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  color: main.$grey-color;
+  font-size: main.$secondary-font-size;
+  font-weight: 400;
+  text-transform: uppercase;
+}
