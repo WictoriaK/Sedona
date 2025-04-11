@@ -1,1 +1,8 @@
-// Начните писать стили здесь
+
+@use 'normalize';
+@use'global';
+@use 'blocks/main';
+
+@use  'blocks/index/intro';
+@use  'blocks/index/advantages';
+
