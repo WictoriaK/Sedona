@@ -1,0 +1,24 @@
+@use '../main';
+
+
+.advantages__title {
+  text-align: center;
+}
+
+.advantages__list--grey {
+  background-color: #EEEEEE;
+}
+
+.advantages__item--blue {
+  background-color: main.$blue-color;
+}
+
+.advantages__item--blue .advantages__title {
+  color: main.$white-color;
+}
+
+.advantages__item--blue .advantages__text {
+  color: main.$white-color;
+  line-height: main.$second-line-height;
+}
+

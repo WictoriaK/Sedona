@@ -1,0 +1,21 @@
+
+@use '../main';
+
+.photo-collection__name {
+  font-size: main.$secondary-font-size;
+  line-height: 24px;
+  font-weight: main.$font-bold;
+  text-transform: uppercase;
+}
+
+.photo-collection__author {
+  font-size: main.$secondary-font-size;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.photo-collection__likes {
+  font-size: main.$secondary-font-size;
+  line-height: 24px;
+  font-weight: main.$font-bold;
+}
