@@ -1,8 +1,26 @@
 
 @use 'normalize';
-@use'global';
+@use "global";
 @use 'blocks/main';
 
-@use  'blocks/index/intro';
+@use 'blocks/intro';
 @use  'blocks/index/advantages';
+@use  'blocks/index/search';
+
+
+@use 'blocks/form/feedback';
+@use 'blocks/form/modal';
+
+
+@use 'blocks/catalog/photo-collection';
+
+
+@use 'blocks/page-header';
+@use 'blocks/page-main';
+@use 'blocks/page-footer';
+@use 'blocks/copyright';
+
+
+
+
 

@@ -1,0 +1,29 @@
+
+
+.intro__inner {
+  padding: 88px 20px 89px 20px;
+  margin-bottom: 32px;
+  background-color: #c9e4ef;
+  background-image: url('../../img/backgrounds/intro-mob.png');
+  background-repeat: no-repeat;
+}
+
+.page-main--form {
+  .intro__inner {
+    //background-image: url('../../img/backgrounds/intro-inner-mob.png');
+
+  }
+}
+
+.page-main--catalog {
+  .intro__inner {
+    //background-image: url('../../img/backgrounds/intro-mob.png');
+  }
+}
+
+.intro__text  {
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+

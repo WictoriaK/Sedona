@@ -1,0 +1,15 @@
+@use '../main';
+
+.feedback__input::placeholder {
+  font-weight: main.$font-bold;
+  color: main.$black-color;
+  line-height: main.$main-line-height;
+}
+
+.feedback__label {
+  font-weight: main.$font-bold;
+}
+
+.feedback__text {
+  font-weight: main.$font-bold;
+}

@@ -1,5 +1,14 @@
 @use '../main';
 
+
+.advantages__title {
+  text-align: center;
+}
+
+.advantages__list--grey {
+  background-color: #EEEEEE;
+}
+
 .advantages__item--blue {
   background-color: main.$blue-color;
 }

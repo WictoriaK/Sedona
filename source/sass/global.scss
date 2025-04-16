@@ -12,11 +12,30 @@ img {
   object-fit: contain;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.inner-wrap{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .caption {
   font-size: main.$main-font-size;
   font-weight: bold;
   color: main.$black-color;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .paragraph {
@@ -25,3 +44,12 @@ img {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+.button {
+  font-size: 21px;
+  color: main.$white-color;
+  font-weight: main.$font-bold;
+  background-color: main.$blue-color;
+}
+
+

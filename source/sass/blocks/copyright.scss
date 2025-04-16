@@ -1,0 +1,7 @@
+@use 'main';
+
+.copyright__text {
+  font-size: main.$secondary-font-size;
+  text-transform: uppercase;
+  font-weight: 400;
+}
